@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Star Wars";
+    src: url("fonts/Distant Galaxy.ttf");
+}
+@font-face {
+    font-family: "Red Hands Regular";
+    src: url("fonts/KG Red Hands.ttf");
+}
+body {
+    background-color: black;
+}
+::selection {
+    color:red;
+    background-color: black;
+}
+#username_Prompt {
+    position: absolute; right: 39.5%; top: 20%;
+    color: #1100ff;
+    font-size: 50px;
+    font-family: "Star Wars";
+    font-weight: 100;
+}
+#username_Input {
+    position: absolute; right: 38.5%; top: 45%;
+    width: 300px; height: 70px;
+    font-size: 30px;
+    font-family: "Red Hands Regular";
+    background-color: blue;
+    color: #22ff00;
+    border-color: yellow;
+    border-radius: 10px;
+    border-width: 5px;
+}
+#username_Password {
+    position: absolute; right: 39.5%; top: 60%;
+    color: #1100ff;
+    font-size: 50px;
+    font-family: "Star Wars";
+    font-weight: 100;
+}
+#password_Input {
+    position: absolute; right: 38.5%; top: 85%;
+    width: 300px; height: 70px;
+    font-size: 30px;
+    font-family: "Red Hands Regular";
+    background-color: blue;
+    color: #22ff00;
+    border-color: yellow;
+    border-radius: 10px;
+    border-width: 5px;
+}
+#submit_button {
+    position: absolute; right: 13.75%; top: 55%;
+    width: 150px; height: 75px;
+    font-size: 30px;
+    font-family: "Red Hands Regular";
+    color: #22ff00;
+    font-weight: 200;
+    background-color: blue;
+    border-color: yellow;
+    border-width: 5px;
+    border-radius: 10px;
+}
+#submit_button::selection {
+    color:red;
+    background-color: blue;
+}
+#title {
+    color: #22ff00;
+    position: absolute; right: 18.5%; top: 0;
+    text-align: center;
+    font-family: "Red Hands Regular";
+    font-weight: 100;
+}

